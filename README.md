@@ -10,4 +10,4 @@ Photos used in this project are from these great photographers:
 </ul>
 
 
-<a href=>DEMO</a> 
+<a href="https://szoker527.github.io/landing-page/">DEMO</a> 

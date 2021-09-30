@@ -154,7 +154,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 100px 50px;
 }
 
 .blue-box {
@@ -165,21 +165,36 @@ body {
     justify-content: center;
     align-items: center;
     gap: 150px;
+    border-radius: 10px;
+    padding: 10px 10px;
 }
 
 .blue-box div {
     color: #e5e7eb;
 }
-.blue-text {
-    
+
+.blue-title {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .blue-button {
-    border-radius: 10px;
+    border-style: solid;
+    border-radius: 8px;
     background-color: #3882F6;
     color: #e5e7eb;
     padding: 10px 20px;
     font-weight: bold;
     font-size: 13px;
     font-family: Roboto, sans-serif;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #e5e7eb;
 }

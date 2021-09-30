@@ -61,7 +61,7 @@ body {
 }
 
 .top {
-    flex: 1;
+    flex: 1 1 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ body {
     gap: 10px;
 }
 
-button {
+.top-button {
     background-color: #3882F6;
     color: #e5e7eb;
     border: none;
@@ -95,7 +95,7 @@ button {
 
 .middle-top {
     display: flex;
-    flex: 1;
+    flex: 1 1 0px;
     flex-direction: column;
     align-items: center;
     padding: 100px;
@@ -122,9 +122,64 @@ button {
 }
 
 .middle-bottom {
-    flex: 1;
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 1100px;
+}
+
+.quote-name {
+    font-weight: 800;
+    color: #1f2937;
+    align-self: flex-end;
 }
 
 .bottom {
-    flex: 1;
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.blue-box div {
+    color: #e5e7eb;
+}
+.blue-text {
+    
+}
+
+.blue-button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
 }
